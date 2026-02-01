@@ -1,0 +1,52 @@
+.scroll-reveal {
+  margin: 0;
+}
+
+.scroll-reveal-text {
+  display: inline;
+  line-height: inherit;
+}
+
+.sr-word {
+  display: inline-block;
+  will-change: opacity, filter;
+}
+
+/* For headings */
+h1.scroll-reveal .scroll-reveal-text,
+h2.scroll-reveal .scroll-reveal-text {
+  font-size: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  color: inherit;
+}
+
+h3.scroll-reveal .scroll-reveal-text {
+  font-size: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  color: inherit;
+}
+
+p.scroll-reveal .scroll-reveal-text {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
+span.scroll-reveal .scroll-reveal-text,
+div.scroll-reveal .scroll-reveal-text {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
+blockquote.scroll-reveal .scroll-reveal-text {
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  color: inherit;
+}

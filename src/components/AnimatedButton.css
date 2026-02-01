@@ -1,0 +1,136 @@
+/* Animated Button Styles */
+.animated-btn {
+  display: inline-block;
+  padding: 14px 32px;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+  z-index: 1;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.animated-btn::before,
+.animated-btn::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 100%;
+  transform: skew(15deg);
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.animated-btn::before {
+  left: -10px;
+}
+
+.animated-btn::after {
+  right: -10px;
+}
+
+.animated-btn:hover::before,
+.animated-btn:hover::after {
+  width: 58%;
+}
+
+.animated-btn span {
+  position: relative;
+  z-index: 2;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Primary Variant - Teal background */
+.animated-btn-primary {
+  background-color: #306e78;
+  border: 1px solid #306e78;
+  color: white;
+}
+
+.animated-btn-primary::before {
+  background: #49838d;
+}
+
+.animated-btn-primary::after {
+  background: #5a9ba5;
+}
+
+.animated-btn-primary:hover span {
+  color: white;
+}
+
+/* Secondary Variant - Dark teal */
+.animated-btn-secondary {
+  background-color: #306e78;
+  border: 1px solid #306e78;
+  color: white;
+}
+
+.animated-btn-secondary::before {
+  background: #49838d;
+}
+
+.animated-btn-secondary::after {
+  background: #5a9ba5;
+}
+
+.animated-btn-secondary:hover span {
+  color: white;
+}
+
+/* White Variant - For dark backgrounds */
+.animated-btn-white {
+  background-color: white;
+  border: 1px solid white;
+  color: #306e78;
+}
+
+.animated-btn-white::before {
+  background: #306e78;
+}
+
+.animated-btn-white::after {
+  background: #49838d;
+}
+
+.animated-btn-white:hover span {
+  color: white;
+}
+
+/* Outline Variant - Transparent with border */
+.animated-btn-outline {
+  background-color: transparent;
+  border: 1px solid #306e78;
+  color: #306e78;
+}
+
+.animated-btn-outline::before {
+  background: #306e78;
+}
+
+.animated-btn-outline::after {
+  background: #49838d;
+}
+
+.animated-btn-outline:hover span {
+  color: white;
+}
+
+/* Size variants */
+.animated-btn-sm {
+  padding: 10px 20px;
+  font-size: 11px;
+}
+
+.animated-btn-lg {
+  padding: 18px 40px;
+  font-size: 14px;
+}
