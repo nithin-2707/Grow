@@ -21,8 +21,8 @@ export default function Footer() {
             {/* Hours Column */}
             <div>
               <h3 className="text-subheading font-medium text-lilac-olive-dark mb-4">Hours</h3>
-              <p className="text-body text-lilac-olive mb-1">Monday – Friday</p>
-              <p className="text-body text-lilac-olive">9am – 6pm</p>
+              <p className="text-body text-lilac-olive mb-1">Monday to Friday</p>
+              <p className="text-body text-lilac-olive">9am to 6pm</p>
             </div>
 
             {/* Find Column */}

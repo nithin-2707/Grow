@@ -6,12 +6,12 @@ import ScrollRevealText, { ScrollRevealElement } from './ScrollReveal';
 
 const faqs = [
   {
-    question: 'Do you offer in-person or online therapy?',
-    answer: 'Both. I offer in-person sessions from my Santa Monica office as well as secure telehealth sessions for clients located anywhere in California. Many clients appreciate having the flexibility to choose based on their schedule and preferences.'
+    question: 'Do you offer in person or online therapy?',
+    answer: 'Both. I offer in person sessions from my Santa Monica office as well as secure telehealth sessions for clients located anywhere in California. Many clients appreciate having the flexibility to choose based on their schedule and preferences.'
   },
   {
     question: 'What issues do you specialize in?',
-    answer: 'I specialize in anxiety, panic, trauma (both single-incident and complex), and professional burnout. I work with high-achieving adults who feel overwhelmed by stress or the lingering effects of past experiences. This includes entrepreneurs, creatives, and professionals who feel disconnected from themselves after years of pushing through.'
+    answer: 'I specialize in anxiety, panic, trauma (both single incident and complex), and professional burnout. I work with high achieving adults who feel overwhelmed by stress or the lingering effects of past experiences. This includes entrepreneurs, creatives, and professionals who feel disconnected from themselves after years of pushing through.'
   },
   {
     question: 'What is your therapeutic approach?',
@@ -19,7 +19,7 @@ const faqs = [
   },
   {
     question: 'How long does therapy typically take?',
-    answer: 'The duration varies by individual and depends on your goals. My focus is on sustainable progress and helping you develop long-term resilience. Some clients find relief in a few months, while others benefit from longer-term depth-oriented work.'
+    answer: 'The duration varies by individual and depends on your goals. My focus is on sustainable progress and helping you develop long-term resilience. Some clients find relief in a few months, while others benefit from longer term depth oriented work.'
   }
 ];
 

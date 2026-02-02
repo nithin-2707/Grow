@@ -6,13 +6,13 @@ import ScrollRevealText, { ScrollRevealElement } from './ScrollReveal';
 const specialties = [
   {
     title: 'Anxiety & Panic',
-    description: 'If you\'re dealing with constant worry, racing thoughts, tension in your body, or feeling like you\'re always bracing for something to go wrong—therapy can help you find relief.',
+    description: 'If you\'re dealing with constant worry, racing thoughts, tension in your body, or feeling like you\'re always bracing for something to go wrong, therapy can help you find relief.',
     image: '/images/Image 1.png',
     alt: 'Person experiencing anxiety and racing thoughts'
   },
   {
     title: 'Trauma',
-    description: 'I work with adults who have experienced single-incident trauma as well as complex, long-standing patterns. My approach is paced carefully with emphasis on safety and stabilization.',
+    description: 'I work with adults who have experienced single incident trauma as well as complex, long standing patterns. My approach is paced carefully with emphasis on safety and stabilization.',
     image: '/images/Image 2.png',
     alt: 'Person carrying emotional weight from past trauma'
   },

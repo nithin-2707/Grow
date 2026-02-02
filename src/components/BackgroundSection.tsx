@@ -6,7 +6,7 @@ import { ScrollRevealText, ScrollRevealElement } from './ScrollReveal';
 const backgrounds = [
   {
     title: 'Education',
-    content: 'Doctor of Psychology (PsyD) from an accredited clinical psychology program. Completed extensive training in trauma-informed care, cognitive-behavioral therapy, and evidence-based therapeutic approaches for anxiety and stress-related conditions.'
+    content: 'Doctor of Psychology (PsyD) from an accredited clinical psychology program. Completed extensive training in trauma informed care, cognitive behavioral therapy, and evidence based therapeutic approaches for anxiety and stress related conditions.'
   },
   {
     title: 'Licensure',
@@ -14,7 +14,7 @@ const backgrounds = [
   },
   {
     title: 'Certifications',
-    content: 'Certified in EMDR (Eye Movement Desensitization and Reprocessing) therapy for trauma treatment. Additional specialized training in Cognitive Behavioral Therapy (CBT), mindfulness-based interventions, and body-oriented therapeutic techniques.'
+    content: 'Certified in EMDR (Eye Movement Desensitization and Reprocessing) therapy for trauma treatment. Additional specialized training in Cognitive Behavioral Therapy (CBT), mindfulness based interventions, and body oriented therapeutic techniques.'
   }
 ];
 

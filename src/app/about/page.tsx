@@ -9,7 +9,7 @@ import ScrollRevealText, { ScrollRevealElement } from '@/components/ScrollReveal
 const credentials = [
   {
     title: 'Education',
-    content: 'Doctor of Psychology (PsyD) from an accredited clinical psychology program. Completed extensive training in trauma-informed care, cognitive-behavioral therapy, and evidence-based therapeutic approaches for anxiety and stress-related conditions.'
+    content: 'Doctor of Psychology (PsyD) from an accredited clinical psychology program. Completed extensive training in trauma informed care, cognitive behavioral therapy, and evidence based therapeutic approaches for anxiety and stress related conditions.'
   },
   {
     title: 'Licensure',
@@ -17,22 +17,22 @@ const credentials = [
   },
   {
     title: 'Certifications',
-    content: 'Certified in EMDR (Eye Movement Desensitization and Reprocessing) therapy for trauma treatment. Additional specialized training in Cognitive Behavioral Therapy (CBT), mindfulness-based interventions, and body-oriented therapeutic techniques.'
+    content: 'Certified in EMDR (Eye Movement Desensitization and Reprocessing) therapy for trauma treatment. Additional specialized training in Cognitive Behavioral Therapy (CBT), mindfulness based interventions, and body oriented therapeutic techniques.'
   }
 ];
 
 const approaches = [
   {
     title: 'Cognitive Behavioral Therapy (CBT)',
-    description: 'Evidence-based approach to identify and change negative thought patterns that contribute to anxiety and stress.'
+    description: 'Evidence based approach to identify and change negative thought patterns that contribute to anxiety and stress.'
   },
   {
     title: 'EMDR Therapy',
     description: 'Specialized trauma treatment that helps process and heal from distressing experiences and memories.'
   },
   {
-    title: 'Mindfulness-Based Practices',
-    description: 'Techniques to cultivate present-moment awareness and develop a healthier relationship with your thoughts and emotions.'
+    title: 'Mindfulness Based Practices',
+    description: 'Techniques to cultivate present moment awareness and develop a healthier relationship with your thoughts and emotions.'
   },
   {
     title: 'Body-Oriented Techniques',
@@ -86,7 +86,7 @@ export default function AboutPage() {
                 enableBlur
                 blurStrength={3}
               >
-                Many of the people I work with are high-achieving, thoughtful, and self-aware—but internally feel exhausted, stuck in overthinking, or emotionally on edge. They may be entrepreneurs, creatives, or professionals who have been pushing through stress for years and are finally ready for something different.
+                Many of the people I work with are high achieving, thoughtful, and self aware, but internally feel exhausted, stuck in overthinking, or emotionally on edge. They may be entrepreneurs, creatives, or professionals who have been pushing through stress for years and are finally ready for something different.
               </ScrollRevealText>
               <ScrollRevealText 
                 as="p" 
@@ -123,7 +123,7 @@ export default function AboutPage() {
             enableBlur
             blurStrength={3}
           >
-            I integrate evidence-based methods to address both the emotional and physiological aspects of what you're experiencing. This allows for deep, lasting change.
+            I integrate evidence based methods to address both the emotional and physiological aspects of what you're experiencing. This allows for deep, lasting change.
           </ScrollRevealText>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -180,7 +180,7 @@ export default function AboutPage() {
             enableBlur
             blurStrength={3}
           >
-            "If you're looking for a therapist who combines practical tools with depth-oriented work—and who understands the realities of living in a fast-paced environment—I may be a good fit."
+            "If you're looking for a therapist who combines practical tools with depth oriented work and who understands the realities of living in a fast-paced environment, I may be a good fit."
           </ScrollRevealText>
         </div>
       </section>
@@ -237,7 +237,7 @@ export default function AboutPage() {
                 enableBlur
                 blurStrength={3}
               >
-                I specialize in working with high-achieving adults who are dealing with:
+                I specialize in working with high achieving adults who are dealing with:
               </ScrollRevealText>
               <ul className="space-y-3 mb-8">
                 {[
@@ -293,7 +293,7 @@ export default function AboutPage() {
             enableBlur
             blurStrength={3}
           >
-            If you're ready to take the first step towards a calmer, more grounded you—I'd love to hear from you. I offer both in-person sessions in Santa Monica and telehealth for California residents.
+            If you're ready to take the first step towards a calmer, more grounded you, I'd love to hear from you. I offer both in person sessions in Santa Monica and telehealth for California residents.
           </ScrollRevealText>
           <ScrollRevealElement enableBlur blurStrength={2}>
             <AnimatedButton href="/contact" variant="primary">
