@@ -7,25 +7,6 @@ import Footer from '@/components/Footer';
 import AnimatedButton from '@/components/AnimatedButton';
 import ScrollRevealText, { ScrollRevealElement } from '@/components/ScrollReveal';
 
-const socialImages = [
-  {
-    src: '/images/meditation.png',
-    alt: 'Peaceful meditation and mindfulness'
-  },
-  {
-    src: '/images/Gemini_Generated_Image_bao1c5bao1c5bao1.png',
-    alt: 'Supportive connection in therapy'
-  },
-  {
-    src: '/images/Gemini_Generated_Image_wdsze6wdsze6wdsz.png',
-    alt: 'Calm therapy office space'
-  },
-  {
-    src: '/images/Dr. Maya Reynolds.png',
-    alt: 'Dr. Maya Reynolds - Licensed Clinical Psychologist'
-  }
-];
-
 export default function ContactPage() {
   return (
     <main className="min-h-screen">
@@ -157,35 +138,6 @@ export default function ContactPage() {
                 ></iframe>
               </div>
             </ScrollRevealElement>
-          </div>
-        </div>
-      </section>
-
-      {/* Social Section */}
-      <section className="w-full bg-white py-16 md:py-24 px-6 md:px-12 lg:px-20">
-        <div className="max-w-7xl mx-auto">
-          <ScrollRevealText 
-            as="h2" 
-            className="text-3xl md:text-display font-medium text-lilac-olive-dark mb-12"
-            enableBlur
-            blurStrength={4}
-          >
-            Find me on social.
-          </ScrollRevealText>
-          
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {socialImages.map((image, index) => (
-              <ScrollRevealElement key={index} enableBlur blurStrength={3} delay={index * 0.1}>
-                <div className="relative aspect-square overflow-hidden group cursor-pointer">
-                  <Image
-                    src={image.src}
-                    alt={image.alt}
-                    fill
-                    className="object-cover transition-transform duration-300 group-hover:scale-105"
-                  />
-                </div>
-              </ScrollRevealElement>
-            ))}
           </div>
         </div>
       </section>
